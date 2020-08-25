@@ -1,0 +1,77 @@
+.boxchat {
+  width: 90%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.boxchat__header {
+  flex: 0.4;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.boxchat__header-user {
+  font-weight: 700;
+  font-size: 23px;
+}
+.boxchat__main {
+  flex: 7;
+  margin: 5px 20px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+}
+.boxchat__main-message span:nth-child(1) {
+  font-weight: 600;
+}
+.boxchat__main-message p {
+  font-size: 20px;
+  width: max-content;
+  padding: 5px 10px;
+}
+.boxchat__main-message {
+  display: flex;
+  flex-direction: column;
+}
+.boxchat__main::-webkit-scrollbar {
+  display: none;
+}
+.boxchat__input {
+  flex: 0.5;
+  display: flex;
+}
+
+.user-message p {
+  background: #8787e5;
+  border-radius: 8px 8px 0px 8px;
+  color: white;
+}
+
+.user-message {
+  align-items: flex-end;
+}
+
+.other-message p {
+  border-radius: 8px 8px 8px 0px;
+  background: white;
+}
+
+.user-message span,
+.other-message span:nth-of-type(2) {
+  font-size: 12px;
+}
+
+.button-send {
+  height: 100%;
+  width: 75px;
+  font-size: 25px;
+  color: blue;
+}
+
+p {
+  margin: 0;
+}

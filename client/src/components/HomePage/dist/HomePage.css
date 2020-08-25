@@ -1,0 +1,10 @@
+.homepage {
+  height: 100vh;
+}
+.homepage__layout {
+  height: 100%;
+}
+.homepage__layout-section {
+  display: flex;
+  flex-direction: row;
+}

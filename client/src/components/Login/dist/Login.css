@@ -1,0 +1,30 @@
+.login-form {
+  width: 100%;
+  max-width: 500px;
+  margin: 200px auto;
+  padding: 35px;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 1px 2px 1px 1px;
+  text-align: left;
+}
+.login-form__title {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.form-login__forgot-password .ant-form-item-control-input-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-login__button-submit .ant-form-item-control-input-content button {
+  margin-right: 10px;
+}
+
+.form-login__button-submit .ant-form-item-control-input-content a {
+  margin-left: 10px;
+}
